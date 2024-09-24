@@ -28,7 +28,7 @@ Passer_Tout :
 
 Loop : 
 	# condition d'arret 
-	blt t0, t1, Exit_Loop: 
+	blt t0, t1, Exit_Loop
 	## corps de la boucle while 
 	j Loop
 	
